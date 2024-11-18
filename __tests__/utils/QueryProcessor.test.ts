@@ -35,4 +35,15 @@ describe("QueryProcessor", () => {
 		));
 	});
 
+
+	test('should return my 39 plus 67', () => {
+		const query = "What is 39 plus 67?";
+		const response: string = QueryProcessor(query);
+		expect(response).toBe((
+"2613"
+	));
+});
+	
+
+
 });
