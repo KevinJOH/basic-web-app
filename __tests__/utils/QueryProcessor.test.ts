@@ -26,4 +26,13 @@ describe("QueryProcessor", () => {
 		"13-11007"
     	));
     });
+
+		test('should return my name', () => {
+			const query = "What is your name?";
+			const response: string = QueryProcessor(query);
+			expect(response).toBe((
+	"Kevin Oporto"
+		));
+	});
+
 });
