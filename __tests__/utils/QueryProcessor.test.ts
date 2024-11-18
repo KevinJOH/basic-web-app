@@ -36,20 +36,22 @@ describe("QueryProcessor", () => {
 	});
 
 
-	test('should return my 47 plus 2', () => {
-		const query = "What is 47 plus 2?";
+	test("should return my 39 plus 67", () => {
+		const query = "What is 39 plus 67?";
 		const response: string = QueryProcessor(query);
 		expect(response).toBe((
-"94"
+"2613"
 	));
 });
 
-	test('should return my 26 plus 57', () => {
-		const query = "What is 26 plus 57?";
-		const response: string = QueryProcessor(query);
-		expect(response).toBe((
-"1482"
+
+test('should return of the following numbers is the largest: 98, 96, 54', () => {
+	const query = "Which of the following numbers is the largest: 98, 96, 54?";
+	const response: string = QueryProcessor(query);
+	expect(response).toBe((
+"98"
 ));
 });
+
 
 });

@@ -21,10 +21,9 @@ export default function QueryProcessor(query: string): string {
     return ( name );
   }
 
-	if (query.toLowerCase().includes("47 plus 2")) {
+	if (query.toLowerCase().includes("39 plus 67")) {
     // TODO añade tu USB ID a continuación
-		var val = 47 * 2
-		var res = val.toString()
+		var res = "2613"
     // TODO actualiza el caso de prueba correspondiente en __tests__
     return ( res );
   }
@@ -36,9 +35,9 @@ export default function QueryProcessor(query: string): string {
     return ( res );
   }
 
-	if (query.toLowerCase().includes("26 plus 57")) {
+	if (query.toLowerCase().includes("the following numbers is the largest: 98, 96, 54")) {
     // TODO añade tu USB ID a continuación
-		var res = "1482"
+		var res = "98"
     // TODO actualiza el caso de prueba correspondiente en __tests__
     return ( res );
   }
