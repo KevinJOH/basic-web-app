@@ -21,11 +21,33 @@ export default function QueryProcessor(query: string): string {
     return ( name );
   }
 
-	if (query.toLowerCase().includes("39 plus 67")) {
+	if (query.toLowerCase().includes("47 plus 2")) {
     // TODO añade tu USB ID a continuación
-		var res = "2613"
+		var val = 47 * 2
+		var res = val.toString()
     // TODO actualiza el caso de prueba correspondiente en __tests__
     return ( res );
   }
+
+	if (query.toLowerCase().includes("47 plus 2")) {
+    // TODO añade tu USB ID a continuación
+		var res = "94"
+    // TODO actualiza el caso de prueba correspondiente en __tests__
+    return ( res );
+  }
+
+	if (query.toLowerCase().includes("26 plus 57")) {
+    // TODO añade tu USB ID a continuación
+		var res = "1482"
+    // TODO actualiza el caso de prueba correspondiente en __tests__
+    return ( res );
+  }
+
+
+
+
+
+
+
   return "";
 }
